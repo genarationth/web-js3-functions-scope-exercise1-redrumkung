@@ -22,7 +22,7 @@ console.log(subtract(a, b));
 console.log(multiply(a, b));
 console.log(divide(a, b));
 
-Inform = (firstName, location, hobby) => {
+const Inform = (firstName, location, hobby) => {
   console.log(
     "Hi, my name is " +
       firstName +
